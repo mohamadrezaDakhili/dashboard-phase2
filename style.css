@@ -102,7 +102,9 @@
   border-radius: 7px;
   box-shadow: 0 3px 10px 2px #ecececbd;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 .boxCenter {
@@ -113,13 +115,12 @@
   justify-content: start;
   align-items: flex-start;
   box-shadow: 0 3px 10px 2px #ecececbd;
-
 }
 .boxItem {
   border-radius: 10px;
   margin-bottom: 10px;
   width: 17%;
-  height: 45%;
+  height: 100%;
   border: 2px solid #dddddd;
   font-family: "shabnam";
 }
@@ -133,19 +134,19 @@
   font-family: "shabnam";
 }
 
-.number{
+.number {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #efefef;
-  width: 20px; 
+  width: 20px;
   height: 20px;
   border-radius: 5px;
   margin-right: 5px;
   font-size: 0.5vw;
 }
 
-.textItem{
+.textItem {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,8 +154,27 @@
   font-family: "shabnam";
   font-size: 0.6vw;
   opacity: 0.5;
-
 }
-.textItemTable{
-  
+.textItemTable {
+  font-family: "shabnam";
+  font-size: 0.8vw;
+}
+.SymbolItem {
+  width: 8px;
+  height: 25px;
+  border-radius: 5px;
+}
+.boxPriority {
+  width: 16px;
+  height: 5px;
+  border-radius: 5px;
+}
+.boxBottom {
+  width: 49%;
+  height: 400px;
+  background-color: violet;
+  border-radius: 7px;
+  box-shadow: 0 3px 10px 2px #ecececbd;
+  display: flex;
+  flex-direction: column;
 }
