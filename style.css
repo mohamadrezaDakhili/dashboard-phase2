@@ -30,7 +30,7 @@
 
 }
 
-
+/* box menu */
 .boxMenu {
   position: fixed;
   right: 0em;
@@ -40,10 +40,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.boxFull {
-  /* background-color: #f5f5f5; */
-  background-color: red;
-}
+
 
 /* The class is for menu text */
 .textMenu {
@@ -59,6 +56,43 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
-  height: 30%;
+  height: 25%;
+}
+.boxFull {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxSmall {
+  width: 24%;
+  background-color: white;
+  display: flex;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px 0 #f0f0f0;
+}
+.boxSmall:hover > *.boxIcon{
+  width: 60%;
+}
+/* box for text in box top */
+.boxTextTop {
+  width: 70%;
+  height: 75%;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: "shabnam_light";
+}
+/* box for icon in box small */
+.boxIcon {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px 0 0 7px;
+  transition: width 1s;
+
 }
