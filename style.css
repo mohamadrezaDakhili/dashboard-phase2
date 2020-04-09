@@ -171,10 +171,13 @@
 }
 .boxBottom {
   width: 49%;
-  height: 400px;
-  background-color: violet;
+  height: 450px;
+  background-color: white;
   border-radius: 7px;
   box-shadow: 0 3px 10px 2px #ecececbd;
   display: flex;
   flex-direction: column;
+}
+.hover:hover{
+  box-shadow: 3px 3px 10px 2px #cececebd;
 }
